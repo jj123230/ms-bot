@@ -7,8 +7,8 @@ Created on Tue May 10 15:33:13 2022
 
 api_後台 = "http://192.168.1.203:5566/"
 
-fb_token = 'EAAKpyNnSGZAwBAO8DgBtA1ZCOcDZB0flRIhcyEqZBlszkWGx4xTJuvDZCZBpCfh1SnNU2JppeWgLsHb2DwhdZAkYmGiSvd0vnkFV8muVTwyZ'+\
-    'BRN4jS9kgfbP6L2hWQoJKOWmNFE3PCrazJCZA5se993trl1tzaqGtYzrhhIUXZBRPbY5L69JmZBupTMytWvpXjI7agZD'
+fb_token = 'EAAKpyNnSGZAwBAB6YJPTSlnHHcYpZAPk2JYdTAYrZAQC0QcuyfA4hDcI7CBIMlxbeYBifmmwpKCrXpGN2OR9xbtsTwg413VkCqvpRot'+\
+    'YF6HUsn2HSBgdqwWDnZCQTlgCWZBk3kEbTj7Vkatb4aWwn7Uu8JpKJkKG4PhfHsXSLjZAKgi9iGaOZB31Lxnxg32g7AZD'
             
             
 #Python libraries that we need to import for our bot
@@ -150,3 +150,4 @@ def send_message(recipient_id, response):
 
 if __name__ == "__main__":
     app.run()
+
