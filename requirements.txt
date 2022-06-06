@@ -1,6 +1,6 @@
 flask
 gunicorn
-pymessenger.bot
+pymessenger
 datetime
 requests
 time
