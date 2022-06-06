@@ -1,3 +1,6 @@
-Flask
+flask
 gunicorn
-line-bot-sdk
+pymessenger.bot
+datetime
+requests
+time
