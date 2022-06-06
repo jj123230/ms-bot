@@ -17,11 +17,8 @@ line_bot_api = LineBotApi(line_token)
 handler = WebhookHandler(line_channel_secret)
 
 
-@app.route("/", methods=["GET", "POST"])
+@app.route("/", methods=["POST"])
 def callback():
-
-    if request.method == "GET":
-        return "Hello Heroku"
     if request.method == "POST":
         signature = request.headers["X-Line-Signature"]
         body = request.get_data(as_text=True)
