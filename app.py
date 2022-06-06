@@ -303,8 +303,3 @@ def dscbot_call(event):
                                                                                              data = 'exit_search'+'退出查價模式'))
                                                     ])))
 
-
-if __name__ == "__main__":
-    app.run()
-
-
