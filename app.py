@@ -1,5 +1,8 @@
 
-import os
+line_channel_secret = 'b1f08e6874aa051cf7497a23a9998685'
+line_token = '3SyceMSn5KrW0F8q9VWGn3Ul4nZujVt8zM93tyeNWDQp2gZ0tsWUIa/ZQHEa9P/nFqq6OS9B1GfsEoRHCW3+sa7Y'+\
+    'cnVwrM16XJkRrEw6PImMWCwC5crWQWfPzk6SKk5N1Dxuw92t1n+8lSegfluPqQdB04t89/1O/w1cDnyilFU='
+
 from datetime import datetime
 
 from flask import Flask, abort, request
@@ -10,8 +13,8 @@ from linebot.models import MessageEvent, TextMessage, TextSendMessage
 
 app = Flask(__name__)
 
-line_bot_api = LineBotApi(os.environ.get("CHANNEL_ACCESS_TOKEN"))
-handler = WebhookHandler(os.environ.get("CHANNEL_SECRET"))
+line_bot_api = LineBotApi(line_token)
+handler = WebhookHandler(line_channel_secret)
 
 
 @app.route("/", methods=["GET", "POST"])
