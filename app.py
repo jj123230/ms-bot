@@ -7,8 +7,8 @@ Created on Tue May 10 15:33:13 2022
 
 api_後台 = "http://192.168.1.203:5566/"
 
-fb_token = 'EAAKpyNnSGZAwBAB6YJPTSlnHHcYpZAPk2JYdTAYrZAQC0QcuyfA4hDcI7CBIMlxbeYBifmmwpKCrXpGN2OR9xbtsTwg413VkCqvpRot'+\
-    'YF6HUsn2HSBgdqwWDnZCQTlgCWZBk3kEbTj7Vkatb4aWwn7Uu8JpKJkKG4PhfHsXSLjZAKgi9iGaOZB31Lxnxg32g7AZD'
+fb_token = 'EAAKpyNnSGZAwBACSGbotTlNSZBi8rPAzf0SWczUwLmxAejZCNn2eg7nyP5iu0xPcW4EglkMafUksQ3FZAyhJhXY0N8Fl4OcvYegpsSl3T7FZC7fCZ'+\
+'CRjkOPJbVNZB0ffljhPypQzEdJXULZAMZAGioPHl28Rmh14WoHRZClal7MOYAqmN7KperNwdZAX9B1z2mvInMZD'
             
             
 #Python libraries that we need to import for our bot
