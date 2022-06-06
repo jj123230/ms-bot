@@ -191,7 +191,7 @@ print('success')
 Chat
 '''
 # 接收 LINE 的資訊
-@app.route("/callback", methods=['POST'])
+@app.route("/", methods=['POST'])
 def callback():
     signature = request.headers['X-Line-Signature']
 
