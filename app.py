@@ -1,4 +1,4 @@
-api_後台 = "http://192.168.1.203:5566/"
+api_後台 = "http://*********/"
       
             
 #Python libraries that we need to import for our bot
