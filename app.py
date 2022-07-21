@@ -1,4 +1,4 @@
-api_後台 = "http://*********/"
+api_後台 = os.environ.get('fb_api')
       
             
 #Python libraries that we need to import for our bot
