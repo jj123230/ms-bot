@@ -1,8 +1,5 @@
 api_後台 = "http://192.168.1.203:5566/"
-
-fb_token = 'EAAKpyNnSGZAwBAOIGWvT0y8Xa3tPormNYZBsTdWwXNXKo9e3HGuSuuZAUQAYCoDfRh8kc35jMEHVX4nZBMNqWP7ZAIktiPq86EfcwGs0TicuOaceuqWFB'+\
-'7l4K71zxw1pTJGfVbU3ZBQFyDuyRiKgMsynsaiw515pVIC6csUYNfGjvwUIKi7eyLBJbB8tLRawkZD'
-            
+      
             
 #Python libraries that we need to import for our bot
 from flask import Flask, request
@@ -13,7 +10,7 @@ import time
 
 
 app = Flask(__name__)
-bot = Bot(fb_token)
+bot = Bot(os.environ.get('fbtoken'))
 
 def form(value):
     return format(round(value, 4),',.4f')
